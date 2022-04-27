@@ -124,3 +124,6 @@ def log(func):
 def now():
     print('2015-3-25')
 now()
+
+import module
+module.test()
