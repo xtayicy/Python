@@ -8,9 +8,10 @@ class Application(tk.Tk):
     
     def __init__(self):
         super().__init__()
-        self.title("XUEPY.COM - 图片文本提取")
+        self.title("图片文本提取")
 
         pt.pytesseract.tesseract_cmd = r"E:\Tesseract-OCR\tesseract.exe"
+        
         self.img_path = tk.StringVar()
 
         self.frame = tk.Frame(self)
